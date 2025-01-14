@@ -23,189 +23,808 @@
         <div class="reveal">
             <div class="slides">
                 <section>
-                    <h1>Beautiful presentations</h1>
-                    <h2>New features</h2>
-                    <ul>
-                        <li>Nerd icons </li>
-                        <li>
-                            <code class="js">
-                                (inline) => code("highlighting")
-                            </code>
-                        </li>
-                        <li>Automatic QR Code generation</li>
-                        <li>and much more!</li>
-                    </ul>
-                </section>
-                <section>
-                    <h1>CUSTOM TOKYONIGHT THEME</h1>
-                    <h2 class="fragment">THAT HAS</h2>
-                    <h3 class="fragment">MULTI</h3>
-                    <h4 class="fragment">LEVEL</h4>
-                    <h5 class="fragment">HEADING</h5>
-                    <h6 class="fragment">COLORS</h6>
-                    <h6>
-                        Thanks to this project
-                        <a
-                            href="https://github.com/tcmmichaelb139/obsidian-tokyonight">
-                            
-                        </a>
-                        for the colorscheme!
-                    </h6>
+                    <h1>Web-приложения и web-протоколы</h1>
+                    <img
+                        class="r-stretch"
+                        src="https://ktkv-presentations.github.io/uidev-1"
+                        data-type="qrcode" />
                 </section>
                 <section>
                     <section>
-                        <h1>Tailwind CSS</h1>
-                        <div class="grid grid-cols-2 gap-8">
-                            <div>
-                                <h5>Lorem, ipsum.</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Error quod fugiat harum
-                                    modi laboriosam dignissimos, maxime
-                                    possimus? Error, nihil in.
-                                </p>
-                            </div>
-                            <div>
-                                <h5>Lorem, ipsum.</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Error quod fugiat harum
-                                    modi laboriosam dignissimos, maxime
-                                    possimus? Error, nihil in.
-                                </p>
-                            </div>
-                            <div class="col-span-2">
-                                <h5>Lorem, ipsum.</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Error quod fugiat harum
-                                    modi laboriosam dignissimos, maxime
-                                    possimus? Error, nihil in.
-                                </p>
-                            </div>
-                        </div>
-                    </section>
-                    <section>
-                        <h1>Custom classes</h1>
-                        <div class="grid grid-cols-3 gap-8">
-                            <div class="border-r">
-                                <h5>border-r</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Illum, soluta!
-                                </p>
-                            </div>
-                            <div class="border-o">
-                                <h5>border-o</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Illum, soluta!
-                                </p>
-                            </div>
-                            <div class="border-y">
-                                <h5>border-y</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Illum, soluta!
-                                </p>
-                            </div>
-                        </div>
-                    </section>
-                </section>
-                <section>
-                    <section data-auto-animate>
-                        <h1>New code highlighting!</h1>
-                        <div>
-                            Now also has Tokyo Night
-                            <code>highlight.js</code>
-                            highlighting implementation
-                        </div>
-                        <pre><code data-trim data-noescape>
-var foo = {
-    bar: function () {
-             alert("Hello, World!");
-         }
-};	
-					</code></pre>
-                    </section>
-                    <section data-auto-animate>
-                        <h1>New code highlighting!</h1>
-                        <h5>Inline code highlighting is now also supported!</h5>
+                        <h1>Web-applications</h1>
+                        <h4>Веб-приложения</h4>
                         <p>
-                            Just wrap your code with
-                            <code>&lt;code&gt;</code>
-                            tag and get highlighting like this
-                            <code class="js">
-                                const foo = () => {return bar}
-                            </code>
-                            !
+                            программное обеспечение, которое работает на сервере
+                            и доступно пользователю через веб-браузер или
+                            клиентское приложение с помощью сети Интернет
+                        </p>
+                        <ul>
+                            <li>
+                                Доступность через браузер, без необходимости
+                                установки.
+                            </li>
+                            <li>
+                                Удобство обновления и распространения
+                                (обновления происходят на сервере).
+                            </li>
+                            <li>
+                                Кроссплатформенность (работают на любом
+                                устройстве с браузером).
+                            </li>
+                        </ul>
+                    </section>
+                    <section data-auto-animate>
+                        <h1>Типы Web-приложений</h1>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="border-b">
+                                <h3>Static</h3>
+                                <h4>Статические</h4>
+                                <ul>
+                                    <li>
+                                        Содержат фиксированный контент (HTML,
+                                        CSS).
+                                    </li>
+                                    <li>
+                                        Отображают одинаковую информацию для
+                                        всех пользователей.
+                                    </li>
+                                </ul>
+                                <div class="border-g">
+                                    личный сайт или портфолио
+                                </div>
+                            </div>
+                            <div class="border-b">
+                                <h3>Dynamic</h3>
+                                <h4>Динамические</h4>
+                                <ul>
+                                    <li>
+                                        Создают контент на основе
+                                        пользовательских запросов или действий.
+                                    </li>
+                                    <li>
+                                        Используют серверную обработку и базы
+                                        данных.
+                                    </li>
+                                </ul>
+                                <div class="border-g">
+                                    социальные сети, интернет-магазины
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section data-auto-animate>
+                        <h1>Типы Web-приложений</h1>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="border-b">
+                                <h3>Single Page Application (SPA)</h3>
+                                <h4>Одностраничные приложения</h4>
+                                <ul>
+                                    <li>
+                                        Загружают основную страницу один раз.
+                                    </li>
+                                    <li>
+                                        Все взаимодействия происходят без
+                                        перезагрузки страницы (с использованием
+                                        JavaScript).
+                                    </li>
+                                </ul>
+                                <div class="border-g">Gmail, Trello</div>
+                            </div>
+                            <div class="border-b">
+                                <h3>Progressive Web Applications (PWA)</h3>
+                                <h4>Прогрессивные веб-приложения</h4>
+                                <ul>
+                                    <li>
+                                        Используют возможности браузера для
+                                        обеспечения опыта, близкого к нативным
+                                        приложениям (offline-режим,
+                                        push-уведомления).
+                                    </li>
+                                </ul>
+                                <div class="border-g">Twitter Lite</div>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+                <section>
+                    <section data-auto-animate>
+                        <h1>Основные компоненты Web-приложений</h1>
+                        <hr />
+                        <h2>Клиентская часть</h2>
+                        <h3>Frontend</h3>
+                        <div class="border-b">
+                            Отвечает за отображение интерфейса пользователю.
+                        </div>
+                        <h4>
+                            HTML (структура), CSS (оформление), JavaScript
+                            (интерактивность)
+                        </h4>
+                    </section>
+                    <section data-auto-animate>
+                        <h1>Основные компоненты Web-приложений</h1>
+                        <hr />
+                        <h2>Серверная часть</h2>
+                        <h3>Backend</h3>
+                        <div class="border-b">
+                            Обрабатывает запросы пользователя, выполняет
+                            вычисления и взаимодействует с базой данных
+                        </div>
+                        <h4>PHP, Python, Ruby, Node.js и другие</h4>
+                    </section>
+                    <section data-auto-animate>
+                        <h1>Основные компоненты Web-приложений</h1>
+                        <hr />
+                        <h2>Базы данных</h2>
+                        <h3>Databases</h3>
+                        <div class="border-b">
+                            Хранение и управление информацией, используемой
+                            приложением
+                        </div>
+                        <h4>MySQL, PostgreSQL, MongoDB</h4>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Работа модели клиент-сервер</h1>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="border-b">
+                                <h4>Клиент</h4>
+                                <p>
+                                    устройство, с которого пользователь
+                                    отправляет запросы
+                                </p>
+                            </div>
+                            <div class="border-b">
+                                <h4>Сервер</h4>
+                                <p>
+                                    система, которая обрабатывает запросы,
+                                    выполняет нужные вычисления или получает
+                                    информацию из базы данных и отправляет ответ
+                                    обратно клиенту
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h1>Пример модели клиент-сервер</h1>
+                        <ol>
+                            <li>Пользователь вводит адрес сайта в браузере.</li>
+                            <li>Браузер отправляет HTTP-запрос на сервер.</li>
+                            <li>
+                                Сервер обрабатывает запрос и возвращает
+                                HTML-страницу.
+                            </li>
+                            <li>Браузер отображает страницу пользователю.</li>
+                        </ol>
+                    </section>
+                </section>
+                <section>
+                    <section data-auto-animate>
+                        <h1>Архитектурные подходы в Web-приложениях</h1>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="border-b">
+                                <h4>Одноуровневая архитектура</h4>
+                                <p>
+                                    Вся обработка данных и выполнение операций
+                                    происходит на одном сервере
+                                </p>
+                                <div>
+                                    Простые веб-сайты или локальные приложения
+                                </div>
+                            </div>
+                            <div class="border-b">
+                                <h4>Многоуровневая архитектура</h4>
+                                <p>
+                                    взаимодействуют несколько уровней: клиент,
+                                    сервер и база данных
+                                </p>
+                                <div>
+                                    Большие e-commerce платформы, социальные
+                                    сети
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section data-auto-animate>
+                        <h1>Архитектурные подходы в Web-приложениях</h1>
+                        <div class="border-b">
+                            <h4>Representational State Transfer (REST)</h4>
+                            <p>
+                                Архитектурный стиль, который использует
+                                HTTP-методы (GET, POST, PUT, DELETE) для обмена
+                                данными между клиентом и сервером
+                            </p>
+                            <div>Интеграции различных сервисов</div>
+                            <hr />
+                            <h5>Основные принципы REST</h5>
+                            <ul>
+                                <li>
+                                    Без состояния (stateless) — каждый запрос
+                                    должен содержать всю необходимую информацию.
+                                </li>
+                                <li>Использование стандартных HTTP-методов.</li>
+                                <li>
+                                    Работает с ресурсами через уникальные
+                                    URL-адреса.
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </section>
+                <section>
+                    <section data-auto-animate>
+                        <h1>Роль браузера в работе Web-приложений</h1>
+                        <div class="border-b">
+                            <h3>1. Запрос к серверу</h3>
+                            <p>
+                                Браузер инициирует запросы, отправляя
+                                HTTP-запросы на сервер
+                            </p>
+                        </div>
+                        <br />
+                        <div class="border-b">
+                            <h3>2. Отображение контента</h3>
+                            <p>
+                                Браузер интерпретирует полученные данные (HTML,
+                                CSS, JavaScript) и отображает их в виде
+                                визуальной страницы
+                            </p>
+                        </div>
+                    </section>
+                    <section data-auto-animate>
+                        <h1>Роль браузера в работе Web-приложений</h1>
+                        <div class="border-b">
+                            <h3>3. Обработка взаимодействия с пользователем</h3>
+                            <p>
+                                Браузер передает действия пользователя (клики,
+                                ввод текста и т. д.) серверу через
+                                дополнительные HTTP-запросы
+                            </p>
+                        </div>
+                        <br />
+                        <div class="border-b">
+                            <h3>4. Выполнение клиентского кода</h3>
+                            <p>
+                                Браузер выполняет JavaScript, который может
+                                взаимодействовать с сервером через AJAX-запросы
+                                или обновлять DOM для отображения динамических
+                                данных
+                            </p>
+                        </div>
+                    </section>
+                </section>
+                <section>
+                    <section data-auto-animate>
+                        <h1>Основные этапы работы Web-приложения</h1>
+                        <h3>1. Запрос от клиента</h3>
+                        <p>
+                            Клиент (браузер) отправляет запрос на сервер, в
+                            котором могут содержаться параметры, указывающие,
+                            какую именно информацию или ресурс хочет получить
+                            пользователь
+                        </p>
+                    </section>
+                    <section data-auto-animate>
+                        <h1>Основные этапы работы Web-приложения</h1>
+                        <h3>2. Обработка запроса на сервере</h3>
+                        <p>
+                            Сервер принимает запрос и обрабатывает его,
+                            возможно, обращаясь к базе данных или выполняя
+                            нужные вычисления
+                        </p>
+                    </section>
+                    <section data-auto-animate>
+                        <h1>Основные этапы работы Web-приложения</h1>
+                        <h3>3. Ответ от сервера</h3>
+                        <p>
+                            Сервер отправляет ответ в виде HTML-страницы или
+                            других данных (например, JSON).
+                        </p>
+                        <div class="border-b">
+                            Ответ может включать дополнительные метаданные,
+                            такие как заголовки HTTP, которые содержат
+                            информацию о типе данных, кодировке и других
+                            настройках
+                        </div>
+                    </section>
+                    <section data-auto-animate>
+                        <h1>Основные этапы работы Web-приложения</h1>
+                        <h3>4. Отображение информации пользователю</h3>
+                        <p>
+                            Браузер получает ответ от сервера и отображает
+                            информацию на экране пользователя
+                        </p>
+                        <div class="border-b">
+                            Взаимодействие с сервером может происходить не
+                            только при первоначальной загрузке страницы, но и в
+                            процессе работы с приложением
+                        </div>
+                    </section>
+                    <section data-auto-animate>
+                        <h4>1. Клиентский запрос</h4>
+                        <p>
+                            Пользователь вводит URL
+                            <code>http://example.com/index.html</code>
+                            в браузере. Это инициирует следующий GET-запрос:
+                        </p>
+                        <pre>
+                        <code>
+GET /index.html HTTP/1.1
+Host: www.example.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+                        </code>
+                    </pre>
+                    </section>
+                    <section data-auto-animate>
+                        <h4>2. Ответ сервера</h4>
+                        <p>
+                            Сервер получает запрос, обрабатывает его и
+                            отправляет ответ с содержимым страницы
+                        </p>
+                        <pre><code>
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Content-Length: 1234
+
+&lt;html>
+    &lt;head>&lt;title>Example Page&lt;/title>&lt;/head>
+    &lt;body><h1>Welcome to Example.com</h1>&lt;/body>
+&lt;/html>
+
+                    </code></pre>
+                        <hr />
+                        <h4>3. Отображение на клиенте</h4>
+                        <p>
+                            Браузер получает HTML-код и отрисовывает страницу,
+                            показывая пользователю приветственное сообщени
                         </p>
                     </section>
                 </section>
                 <section>
-                    <h1>Mermaid for beautiful diagrams!</h1>
-                    <div class="mermaid">
+                    <section data-auto-animate>
+                        <h1>HTTP</h1>
+                        <h3>HyperText Transfer Protocol</h3>
+                        <p>
+                            основной протокол, используемый для передачи данных.
+                            Он определяет правила, по которым браузеры (клиенты)
+                            и серверы обмениваются информацией
+                        </p>
+                        <div class="border-b">
+                            Является stateless протоколом, что означает, что
+                            каждый запрос и ответ обрабатываются независимо от
+                            других
+                        </div>
+                    </section>
+                    <section data-auto-animate>
+                        <h1>Структура HTTP-запроса</h1>
+                        <h3>1. Стартовая строка</h3>
+                        <p>определяет тип запроса и целевой ресурс</p>
+                        <code>GET /index.html HTTP/1.1</code>
+                        <ul>
+                            <li>
+                                <code>GET</code>
+                                - HTTP-метод (операция, которая должна быть
+                                выполнена)
+                            </li>
+                            <li>
+                                <code>/index.html</code>
+                                - путь к ресурсу на сервере
+                            </li>
+                            <li>
+                                <code>HTTP/1.1</code>
+                                - версия HTTP-протокола
+                            </li>
+                        </ul>
+                    </section>
+                    <section data-auto-animate>
+                        <h1>Структура HTTP-запроса</h1>
+                        <h3>2. Заголовки</h3>
+                        <p>
+                            содержат дополнительную информацию о запросе, такую
+                            как тип содержимого, язык и предпочтения
+                            пользователя
+                        </p>
                         <pre>
-						erDiagram
-    CUSTOMER ||--o{ ORDER : ""
-    CUSTOMER {
-        string name
-        string custNumber
-        string sector
-    }
-    ORDER ||--|{ LINE-ITEM : contains
-    ORDER {
-        int orderNumber
-        string deliveryAddress
-    }
-    LINE-ITEM {
-        string productCode
-        int quantity
-        float pricePerUnit
-    }
-    ORDER ||--|{ STUDENT : contains
-    STUDENT {
-        int orderNumber
-        string deliveryAddress
-    }
-						</pre
-                        >
-                    </div>
-                    <h4>
-                        Check documentation
-                        <a href="https://mermaid.js.org/config/usage.html">
-                            here
-                        </a>
-                        !
-                    </h4>
-                </section>
-                <section>
-                    <h1>Now supports Nerd font icons!</h1>
-                    <div>Nerdy project that adds icons to font itself</div>
-                    <h6>
-                        Checkout their site for icons like this
-                        <a href="https://www.nerdfonts.com/">󰖟</a>
-                        !
-                    </h6>
-                </section>
-                <section>
-                    <h1>Now supports automatic QRCode generation!</h1>
-                    <div>
-                        With GoQR you can just add data-type and alt attributes
-                        to your
-                        <code class="html">
-                            &lt;img src="https://goqr.me/" data-type="qrcode" /
-                            &gt;
+                        <code>
+Host: www.example.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+Accept-Language: en-US,en;q=0.9
                         </code>
-                        tag!
-                    </div>
-                    <img
-                        class="r-stretch"
-                        src="https://goqr.me/"
-                        data-type="qrcode" />
+                    </pre>
+                    </section>
+                    <section data-auto-animate>
+                        <h1>Структура HTTP-запроса</h1>
+                        <h3>3. Тело запроса</h3>
+                        <p>может содержать данные, отправляемые на сервер</p>
+                        <code>username=admin&password=12345</code>
+                    </section>
+                    <section data-auto-animate>
+                        <h1>HTTP-методы</h1>
+                        <p>
+                            методы определяют, что клиент хочет сделать с данным
+                            ресурсом
+                        </p>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="border-b">
+                                <h3>GET</h3>
+                                <p>
+                                    используется для получения данных с сервера
+                                </p>
+                                <div class="border-r">
+                                    Запрос не изменяет состояние сервера
+                                </div>
+                            </div>
+                            <div class="border-b">
+                                <h3>POST</h3>
+                                <p>
+                                    используется для отправки данных на сервер
+                                </p>
+                                <div class="border-r">
+                                    Например, для отправки формы или загрузки
+                                    файла
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section data-auto-animate>
+                        <h1>Идемпотентность</h1>
+                        <p>
+                            свойство операции, при котором повторное выполнение
+                            этой операции дает тот же результат, что и единичное
+                            выполнение
+                        </p>
+                        <div class="border-b">
+                            <code>GET</code>
+                            : Повторный запрос ресурса не изменяет его
+                            состояние.
+                        </div>
+                        <div class="border-b">
+                            <code>PUT</code>
+                            : Повторное обновление ресурса одинаковыми данными
+                            приводит к тому же результату.
+                        </div>
+                        <div class="border-b">
+                            <code>DELETE</code>
+                            : Повторное удаление ресурса не изменяет состояние,
+                            если он уже был удалён.
+                        </div>
+                    </section>
+                    <section data-auto-animate>
+                        <h1>HTTP-методы</h1>
+                        <p>
+                            методы определяют, что клиент хочет сделать с данным
+                            ресурсом
+                        </p>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="border-b">
+                                <h3>DELETE</h3>
+                                <p>
+                                    используется для удаления ресурса с сервера
+                                </p>
+                            </div>
+                            <div class="border-b">
+                                <h3>HEAD</h3>
+                                <p>
+                                    похож на GET, но сервер возвращает только
+                                    заголовки ответа без тела
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                    <section data-auto-animate>
+                        <h1>HTTP-методы</h1>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="border-b">
+                                <h3>PUT</h3>
+                                <p>
+                                    используется для замены ресурса на сервере
+                                </p>
+                            </div>
+                            <div class="border-b">
+                                <h3>PATCH</h3>
+                                <p>
+                                    используется для частичного обновления
+                                    ресурса
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            Используются для обновления ресурсов на сервере
+                        </div>
+                    </section>
+                    <section data-auto-animate>
+                        <h4>Задача: обновить пароль пользователя</h4>
+                        <div class="border-g">
+                            <h5>PUT</h5>
+                            <div>Необходимо послать всего пользователя</div>
+                            <pre
+                                class="r-stretch"><code data-trim data-line-numbers class="js">
+fetch("https://mysite.ru/changeUser", {
+    method: 'PUT',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({username: "admin", password: "qwe123"})
+})
+                        </code></pre>
+                        </div>
+                        <br />
+                        <div class="border-g">
+                            <h5>PATCH</h5>
+                            <div>Необходимо послать только новый пароль</div>
+                            <pre
+                                class="r-stretch"><code data-trim data-line-numbers class="js">
+fetch("https://mysite.ru/changeUser", {
+    method: 'PATCH',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({password: "qwe123"})
+})
+                        </code></pre>
+                        </div>
+                    </section>
+                    <section data-auto-animate>
+                        <h1>Структура HTTP-ответа</h1>
+                        <h3>Стартовая строка</h3>
+                        <p>содержит информацию о статусе ответа</p>
+                        <code>HTTP/1.1 200 OK</code>
+                        <ul>
+                            <li>
+                                <code>HTTP/1.1</code>
+                                - версия HTTP
+                            </li>
+                            <li>
+                                <code>200</code>
+                                - код состояния (статус)
+                            </li>
+                            <li>
+                                <code>OK</code>
+                                - описание статуса
+                            </li>
+                        </ul>
+                    </section>
+                    <section data-auto-animate>
+                        <h1>Структура HTTP-ответа</h1>
+                        <h3>Заголовки</h3>
+                        <p>содержат метаданные о содержимом</p>
+                        <div class="border-b">
+                            например, тип содержимого, длину ответа и кодировку
+                        </div>
+                        <pre><code>
+Content-Type: text/html; charset=UTF-8
+Content-Length: 1234
+                    </code></pre>
+                    </section>
+                    <section data-auto-animate>
+                        <h1>Структура HTTP-ответа</h1>
+                        <h3>Тело ответа</h3>
+                        <p>
+                            содержит сам контент, который сервер отправляет
+                            клиенту
+                        </p>
+                        <div class="border-b">
+                            может быть HTML-страница, изображение, JSON-данные и
+                            т. д
+                        </div>
+                        <pre><code data-trim class="html">
+&lt;html>
+    &lt;body>
+        <h1>Hello, World!</h1>
+    &lt;/body>
+&lt;/html>
+                    </code></pre>
+                    </section>
+                    <section data-auto-animate>
+                        <h1>Коды состояния HTTP</h1>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="border-b">
+                                <h3>информационные</h3>
+                                <h4>1xx</h4>
+                                <ul>
+                                    <li>
+                                        <code>100 Continue</code>
+                                        - сервер готов продолжить обработку
+                                        запроса
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="border-b">
+                                <h3>успешные</h3>
+                                <h4>2xx</h4>
+                                <ul>
+                                    <li>
+                                        <code>200 OK</code>
+                                        - запрос выполнен успешно
+                                    </li>
+                                    <li>
+                                        <code>201 Created</code>
+                                        - ресурс был успешно создан
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <section data-auto-animate>
+                        <h1>Коды состояния HTTP</h1>
+                        <div class="border-b">
+                            <h3>перенаправления</h3>
+                            <h4>3xx</h4>
+                            <ul>
+                                <li>
+                                    <code>301 Moved Permanently</code>
+                                    - запрашиваемый ресурс был окончательно
+                                    перемещен
+                                </li>
+                                <li>
+                                    <code>302 Found</code>
+                                    - ресурс временно перемещен
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section data-auto-animate>
+                        <h1>Коды состояния HTTP</h1>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="border-b">
+                                <h3>ошибки клиента</h3>
+                                <h4>4xx</h4>
+                                <ul>
+                                    <li>
+                                        <code>400 Bad Request</code>
+                                        - неправильный запрос
+                                    </li>
+                                    <li>
+                                        <code>401 Unauthorized</code>
+                                        - необходимо авторизоваться
+                                    </li>
+                                    <li>
+                                        <code>404 Not Found</code>
+                                        - ресурс не найден
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="border-b">
+                                <h3>ошибки сервера</h3>
+                                <h4>5xx</h4>
+                                <ul>
+                                    <li>
+                                        <code>500 Internal Server Error</code>
+                                        - внутренняя ошибка сервера
+                                    </li>
+                                    <li>
+                                        <code>503 Service Unavailable</code>
+                                        - сервер недоступен
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h1>
+                            <a
+                                href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/100">
+                                HTTP-статус коды
+                            </a>
+                        </h1>
+                        <iframe
+                            src="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/100"
+                            class="r-stretch"
+                            frameborder="0"></iframe>
+                    </section>
+                    <section data-auto-animate>
+                        <h1>Примеры HTTP-заголовков</h1>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="border-b">
+                                <h4>Content-Type</h4>
+                                <p>
+                                    указывает на тип содержимого (например,
+                                    <code>text/html</code>
+                                    ,
+                                    <code>application/json</code>
+                                    )
+                                </p>
+                            </div>
+                            <div class="border-b">
+                                <h4>Cache-Control</h4>
+                                <p>контролирует кэширование данных</p>
+                            </div>
+                            <div class="border-b">
+                                <h4>Authorization</h4>
+                                <p>
+                                    используется для передачи данных
+                                    авторизации, например, при отправке токенов
+                                </p>
+                            </div>
+                            <div class="border-b">
+                                <h4>Set-Cookie</h4>
+                                <p>
+                                    используется для установки cookies на
+                                    клиенте
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                    <section data-auto-animate>
+                        <h1>Протокол HTTPS</h1>
+                        <h4>HyperText Transfer Protocol Secure</h4>
+                        <p>
+                            защищенная версия HTTP, которая использует SSL/TLS
+                            для шифрования данных, передаваемых между клиентом и
+                            сервером
+                        </p>
+                        <ul>
+                            <li>
+                                <code>Конфиденциальность</code>
+                                - данные, передаваемые через HTTPS, зашифрованы,
+                                что делает их недоступными для третьих сторон
+                            </li>
+                            <li>
+                                <code>Целостность</code>
+                                - данные не могут быть изменены или повреждены
+                                при передаче
+                            </li>
+                            <li>
+                                <code>Аутентификацию</code>
+                                - HTTPS позволяет удостовериться в подлинности
+                                сервера, что помогает предотвратить атаки
+                                man-in-the-middle
+                            </li>
+                        </ul>
+                    </section>
                 </section>
                 <section>
-                    <h1>New changes on the way!</h1>
+                    <section data-auto-animate>
+                        <h1>Взаимодействие с сервером через AJAX</h1>
+                        <h4>Asynchronous JavaScript and XML (AJAX)</h4>
+                        <p>
+                            позволяет отправлять HTTP-запросы и получать ответы
+                            от сервера без перезагрузки страницы
+                        </p>
+                    </section>
+                    <section data-auto-animate>
+                        <h4>1. Отправка асинхронного запроса</h4>
+                        <p>
+                            С помощью JavaScript создается HTTP-запрос, который
+                            отправляется на сервер без обновления страницы. Этот
+                            запрос может быть как GET, так и POST.
+                        </p>
+                        <pre><code data-trim data-line-numbers="1-2,9" class="js">
+let xhr = new XMLHttpRequest();
+xhr.open("GET", "/api/data", true);
+xhr.onload = function() {
+   if (xhr.status === 200) {
+       let response = JSON.parse(xhr.responseText);
+       document.getElementById("data-container").innerHTML = response.data;
+   }
+};
+xhr.send();
+                    </code></pre>
+                    </section>
+                    <section data-auto-animate>
+                        <h4>2. Обработка запроса на сервере</h4>
+                        <p>
+                            Сервер получает запрос, обрабатывает его (например,
+                            обновляет данные в базе данных или извлекает их) и
+                            формирует ответ, который возвращается клиенту
+                        </p>
+                    </section>
+                    <section data-auto-animate>
+                        <h4>3. Обработка ответа на клиенте</h4>
+                        <p>
+                            JavaScript на клиенте получает ответ от сервера,
+                            парсит его (например, из формата JSON) и обновляет
+                            части веб-страницы, изменяя только те элементы,
+                            которые требуют обновления
+                        </p>
+                        <pre><code data-trim data-line-numbers="3-8" class="js">
+let xhr = new XMLHttpRequest();
+xhr.open("GET", "/api/data", true);
+xhr.onload = function() {
+   if (xhr.status === 200) {
+       let response = JSON.parse(xhr.responseText);
+       document.getElementById("data-container").innerHTML = response.data;
+   }
+};
+xhr.send();
+                    </code></pre>
+                    </section>
                 </section>
             </div>
         </div>
